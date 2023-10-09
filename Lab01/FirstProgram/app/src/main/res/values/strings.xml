@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Máy tính</string>
+    <string name="result">Kết quả</string>
+    <string name="plus">+</string>
+    <string name="sub">-</string>
+    <string name="mul">*</string>
+    <string name="div">/</string>
+    <string name="div_w_re">%</string>
+</resources>

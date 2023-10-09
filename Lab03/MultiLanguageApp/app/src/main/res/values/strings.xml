@@ -1,0 +1,11 @@
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="StringEscaping">
+    <string name="app_name">Multi Language App</string>
+    <string name="title">Welcome!</string>
+    <string name="email">Email address</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="signup" >Don't have account? Sign Up</string>
+    <string name="vietnamese">Tiếng Việt</string>
+    <string name="english">English</string>
+    <string name="francais">Francais</string>
+</resources>

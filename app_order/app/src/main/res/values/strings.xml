@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">OrderApp</string>
+    <string name="username_hint">tên đăng nhập</string>
+    <string name="passwork_hint">mật khẩu</string>
+    <string name="slogan">Gọi món thật dễ dàng!</string>
+    <string name="login">Đăng nhập</string>
+    <string name="forgot">Quên mật khẩu?</string>
+    <string name="no_acc">Không có tài khoản?</string>
+    <string name="signup">Đăng ký ngay</string>
+</resources>

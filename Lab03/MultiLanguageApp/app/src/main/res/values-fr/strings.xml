@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="StringEscaping">
+    <string name="app_name">Multi Language App</string>
+    <string name="title">accuel!</string>
+    <string name="email">adresse e-mail</string>
+    <string name="password">mot de passe</string>
+    <string name="login">connexion</string>
+    <string name="signup" >Ne pas avoir un compte? signer</string>
+    <string name="vietnamese">Tiếng Việt</string>
+    <string name="english">English</string>
+    <string name="francais">Francais</string>
+</resources>

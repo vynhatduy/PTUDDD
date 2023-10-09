@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_name">Đổi độ dài</string>
+    <string name="title_header">Đổi đơn vị đo chiều dài</string>
+    <string name="textbox_hint">Nhập độ dài</string>
+    <string name="title_change">Tương đương với</string>
+    <string name="hai_ly">Hải lý</string>
+    <string name="dam">Dặm</string>
+    <string name="kilometer">Kilometer</string>
+    <string name="ly">Lý</string>
+    <string name="met">Met</string>
+    <string name="yard">Yard</string>
+    <string name="foot">Foot</string>
+    <string name="inches">Inches</string>
+</resources>
