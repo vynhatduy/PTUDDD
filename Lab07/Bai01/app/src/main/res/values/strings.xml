@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">custom_button</string>
+    <string name="title">DrawableExample</string>
+    <string name="head">Custom Button</string>
+</resources>
