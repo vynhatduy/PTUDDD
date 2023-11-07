@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<resources>
+    <string name="app_name">Yosenju</string>
+    <string name="slogan">gọi món thật dễ</string>
+    <string name="user_hint">Tên đăng nhập</string>
+    <string name="pass_hint">Mật khẩu</string>
+    <string name="forgot">Quên mật khẩu?</string>
+    <string name="no_account">Không có tài khoản?</string>
+    <string name="signup_now">Đăng ký ngay</string>
+    <string name="login">Đăng nhập</string>
+    <string name="signup">Đăng ký</string>
+    <string name="SDT">Số điện thoại</string>
+    <string name="Ten">Tên</string>
+    <string name="Ho">Họ</string>
+    <string name="Email">Email</string>
+    <string name="SDT_hint">Nhập số điện thoại của bạn</string>
+    <string name="Ten_hint">Nhập tên của bạn</string>
+    <string name="Ho_hint">Nhập họ của bạn</string>
+    <string name="Email_hint">Nhập Email của bạn</string>
+    <string name="Enter_pass_hint">Nhập mật khẩu</string>
+    <string name="Enter_pass_hint_again">Nhập lại mật khẩu</string>
+    <string name="continute">Tiếp theo</string>
+    <string name="title_forgot">Vui lòng nhập số điện thoại để lấy lại mật khẩu</string>
+    <string name="send">Gửi</string>
+    <string name="enter_otp">Nhập mã OTP</string>
+    <string name="title_activity_home_layout">home_layout</string>
+    <string name="reward">Tích điểm</string>
+    <string name="giao_tan_noi">Giao tận nơi</string>
+    <string name="tu_den_lay">Tự đến lấy</string>
+    <string name="enter_location">Nhập địa chỉ của bạn</string>
+    <string name="enter_location_res">Chọn của hàng đến lấy</string>
+    <string name="mon_ngon_phai_thu">Món ngon phải thử</string>
+    <string name="show_all">Xem tất cả</string>
+    <string name="home">Trang chủ</string>
+    <string name="menu">Thực đơn</string>
+    <string name="sale">Khuyến mãi</string>
+    <string name="order">Đơn hàng</string>
+    <string name="more">Xem thêm</string>
+    <string name="close">Đóng</string>
+    <string name="title_activity_main2">MainActivity2</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+</resources>

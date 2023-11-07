@@ -1,0 +1,11 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.OrderApp" parent="Theme.Material3.DayNight.NoActionBar">
+    </style>
+
+    <style name="Theme.OrderApp" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <item name="android:windowBackground">@color/myBackground</item>
+        <item name="android:colorForeground">@color/myForeground</item>
+    </style>
+
+</resources>

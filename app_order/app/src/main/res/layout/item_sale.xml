@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:orientation="horizontal"
+        android:layout_margin="15dp"
+        android:background="@drawable/bg_item_sale">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/img_item_sale"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="10dp"
+            android:id="@+id/iv_item_sale"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="20dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="Thứ 2 mua 1 tặng 2"
+                android:id="@+id/tv_title_sale"
+                android:textSize="20sp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv_content_sale"
+                android:textSize="16sp"
+                android:text="Thứ 2 mua 1 được 2"/>
+            <Button
+                android:id="@+id/btn_item_sale"
+                android:layout_marginTop="4dp"
+                android:layout_width="140dp"
+                android:layout_height="40dp"
+                android:layout_gravity="end"
+                android:backgroundTint="@drawable/bg_btn_selector"
+                android:layout_marginRight="40dp"
+                android:text="Đặt ngay"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
