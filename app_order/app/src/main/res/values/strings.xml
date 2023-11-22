@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <resources>
     <string name="app_name">Yosenju</string>
+    <string name="time">giây</string>
     <string name="slogan">gọi món thật dễ</string>
     <string name="user_hint">Tên đăng nhập</string>
     <string name="pass_hint">Mật khẩu</string>
@@ -13,21 +14,22 @@
     <string name="Ten">Tên</string>
     <string name="Ho">Họ</string>
     <string name="Email">Email</string>
+    <string name="Ngay_sinh">Sinh nhật</string>
     <string name="SDT_hint">Nhập số điện thoại của bạn</string>
     <string name="Ten_hint">Nhập tên của bạn</string>
     <string name="Ho_hint">Nhập họ của bạn</string>
     <string name="Email_hint">Nhập Email của bạn</string>
-    <string name="Enter_pass_hint">Nhập mật khẩu</string>
-    <string name="Enter_pass_hint_again">Nhập lại mật khẩu</string>
+    <string name="Enter_pass_hint">Nhập mật khẩu mới</string>
+    <string name="Enter_pass_hint_again">Nhập lại mật khẩu mới</string>
     <string name="continute">Tiếp theo</string>
-    <string name="title_forgot">Vui lòng nhập số điện thoại để lấy lại mật khẩu</string>
+    <string name="title_forgot">Vui lòng nhập số điện thoại</string>
     <string name="send">Gửi</string>
     <string name="enter_otp">Nhập mã OTP</string>
     <string name="title_activity_home_layout">home_layout</string>
     <string name="reward">Tích điểm</string>
     <string name="giao_tan_noi">Giao tận nơi</string>
     <string name="tu_den_lay">Tự đến lấy</string>
-    <string name="enter_location">Nhập địa chỉ của bạn</string>
+    <string name="enter_location">Chọn địa chỉ của bạn</string>
     <string name="enter_location_res">Chọn của hàng đến lấy</string>
     <string name="mon_ngon_phai_thu">Món ngon phải thử</string>
     <string name="show_all">Xem tất cả</string>
@@ -41,4 +43,32 @@
     <string name="title_home">Home</string>
     <string name="title_dashboard">Dashboard</string>
     <string name="title_notifications">Notifications</string>
+    <string name="info_account">Thông tin tài khoản</string>
+    <string name="enter_location_manager">Bấm vào để quản lí địa chỉ nhà</string>
+    <string name="save">Lưu những thay đổi</string>
+    <string name="dialog_remove_account">Bạn chắc chắn muốn xóa tài khoản này</string>
+    <string name="remove_account">Xóa tài khoản</string>
+    <string name="location">Địa chỉ giao hàng</string>
+    <string name="change_location">Chọn địa chỉ của bạn</string>
+    <string name="Enter_pass_hint_current">Nhập mật khẩu hiện tại</string>
+    <string name="change_pass">Thay đổi mật khẩu</string>
+    <string name="new_location">Địa chỉ mới</string>
+    <string name="contact">Liên hệ</string>
+    <string name="hoTen">Họ và tên</string>
+    <string name="finish">Hoàn thành</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="pay">Thanh toán đơn hàng</string>
+    <string name="selected_food">Các món đã chọn</string>
+    <string name="note">Ghi chú</string>
+    <string name="payment">Thanh toán bằng</string>
+    <string name="my_offer">Ưu đãi của tôi</string>
+    <string name="remove_offer">Xóa ưu đãi</string>
+    <string name="selected_offer">Chọn mã giảm giá</string>
+    <string name="sum">Tổng cộng</string>
+    <string name="sum_tam_tinh">Tổng tạm tính</string>
+    <string name="sale_vouchers">Khuyến mãi vouchers</string>
+    <string name="fee_ship">Phí giao hàng</string>
+    <string name="status">Trạng thái</string>
+    <string name="pre_ship">Đang chuẩn bị</string>
+    <string name="ship">Đang giao</string>
 </resources>

@@ -6,12 +6,11 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
-        android:layout_margin="10dp"
         android:background="@drawable/bg_item">
         <ImageView
             android:id="@+id/iv_MonNgonPhaiThu"
-            android:layout_width="100dp"
-            android:layout_height="80dp"
+            android:layout_width="120dp"
+            android:layout_height="110dp"
             android:src="@drawable/item_1"
             android:layout_gravity="center"
             android:layout_marginTop="10dp"/>

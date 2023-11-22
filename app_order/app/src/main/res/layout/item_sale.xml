@@ -42,9 +42,10 @@
                 android:layout_width="140dp"
                 android:layout_height="40dp"
                 android:layout_gravity="end"
-                android:backgroundTint="@drawable/bg_btn_selector"
+                android:background="@drawable/bg_btn_selector"
                 android:layout_marginRight="40dp"
-                android:text="Đặt ngay"/>
+                android:text="Đặt ngay"
+                android:textColor="@color/white"/>
         </LinearLayout>
     </LinearLayout>
 </LinearLayout>

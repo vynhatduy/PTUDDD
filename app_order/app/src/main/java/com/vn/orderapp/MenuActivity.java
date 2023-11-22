@@ -6,6 +6,7 @@ import android.view.View;
 import android.widget.AdapterView;
 import android.widget.GridView;
 import android.widget.ImageButton;
+import android.widget.LinearLayout;
 import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -32,6 +33,7 @@ public class MenuActivity extends AppCompatActivity {
     private Item_Adapter_MonNgonPhaiThu item_AdapterMonNgonPhaiThu;
     private GridView gv_MonNgon;
     private ImageButton btnHome,btnSale,btnOrder,btnMore;
+    private LinearLayout ln_cart;
 
     private void initcontrol(){
         rcv_Menu=findViewById(R.id.rcv_Menu);
@@ -40,6 +42,7 @@ public class MenuActivity extends AppCompatActivity {
         btnSale=findViewById(R.id.btnSale);
         btnOrder=findViewById(R.id.btnOrder);
         btnMore=findViewById(R.id.btnMore);
+        ln_cart=findViewById(R.id.ln_cart);
     }
 
     @Override
@@ -117,6 +120,14 @@ public class MenuActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Intent intent = new Intent(MenuActivity.this,MoreActivity.class);
                 intent.addFlags(Intent.FLAG_ACTIVITY_NO_ANIMATION);
+                startActivity(intent);
+            }
+        });
+        ln_cart.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MenuActivity.this,PayActivity.class);
+                intent.putExtra("code_payment",2);
                 startActivity(intent);
             }
         });

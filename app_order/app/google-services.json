@@ -1,13 +1,14 @@
 {
   "project_info": {
-    "project_number": "538937116932",
-    "project_id": "orderapp-demo",
-    "storage_bucket": "orderapp-demo.appspot.com"
+    "project_number": "926111628649",
+    "firebase_url": "https://orderapp-f9dff-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "orderapp-f9dff",
+    "storage_bucket": "orderapp-f9dff.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:538937116932:android:0bae793329c9ee42672851",
+        "mobilesdk_app_id": "1:926111628649:android:fee06c8f078a28ba2891f8",
         "android_client_info": {
           "package_name": "com.vn.orderapp"
         }
@@ -15,7 +16,7 @@
       "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyAxxWUMLpj2DcykSE6Msfqlf4Xcu0Ryq88"
+          "current_key": "AIzaSyDBfpU-P1zy_o65cQlPMaQ_g-Ooxcg8dFk"
         }
       ],
       "services": {

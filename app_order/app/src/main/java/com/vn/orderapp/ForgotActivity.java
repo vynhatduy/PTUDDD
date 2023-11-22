@@ -17,64 +17,25 @@ import android.widget.TextView;
 import java.util.Locale;
 
 public class ForgotActivity extends AppCompatActivity {
-    FrameLayout frame1,frame2, frame3;
-    Button btnSend1,btnSend2,btnSend3;
-    ImageButton btnBack;
-    EditText txtPass,txtPassAgain;
-    TextView lblCountdown;
+    Button btn_send_sdt;
+    ImageButton btn_back_sdt;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_forgot);
-        frame1 = findViewById(R.id.frame1);
-        frame2 =findViewById(R.id.frame2);
-        frame3=findViewById(R.id.frame3);
+        setContentView(R.layout.activity_sdt);
+        btn_send_sdt=findViewById(R.id.btn_send_sdt);
+        btn_back_sdt=findViewById(R.id.btn_back_sdt);
 
-        txtPass=findViewById(R.id.txtPass);
-        txtPassAgain=findViewById(R.id.txtPassAgain);
-        lblCountdown = findViewById(R.id.lblCountdown);
-        lblCountdown.setText("100 giây");
-
-        btnSend1=findViewById(R.id.btnSend1);
-        btnSend2=findViewById(R.id.btnSend2);
-        btnSend3=findViewById(R.id.btnSend3);
-        btnBack=findViewById(R.id.btnBack);
-
-        btnSend1.setOnClickListener(new View.OnClickListener() {
+        btn_send_sdt.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                frame1.setVisibility(View.GONE);
-                frame2.setVisibility(View.VISIBLE);
-                if (frame2.getVisibility()==View.VISIBLE){
-                    CountDownTimer countDownTimer = new CountDownTimer(100000,1000) {
-                        @Override
-                        public void onTick(long millisUntilFinished) {
-                            lblCountdown.setText(String.format(Locale.getDefault(), "%d giây.", millisUntilFinished / 1000L));
-                        }
-
-                        @Override
-                        public void onFinish() {
-                            lblCountdown.setText("0 giây");
-                        }
-                    }.start();
-                }
-            }
-        });
-        btnSend2.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                frame2.setVisibility(View.GONE);
-                frame3.setVisibility(View.VISIBLE);
-            }
-        });
-        btnSend3.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(ForgotActivity.this,LoginActivity.class);
+                Intent intent = new Intent(ForgotActivity.this,EnterOTPActivity.class);
+                intent.putExtra("code",1);
                 startActivity(intent);
             }
         });
-        btnBack.setOnClickListener(new View.OnClickListener() {
+
+        btn_back_sdt.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(ForgotActivity.this, LoginActivity.class);

@@ -4,6 +4,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageButton;
+import android.widget.LinearLayout;
 import android.widget.ListView;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -21,6 +22,7 @@ public class SaleActivity extends AppCompatActivity {
 
     private String[] txt_button = new String[] {"Đặt ngay"};
     private ListView lv_Sale;
+    private LinearLayout ln_cart;
 
     private ImageButton btnHome,btnMenu,btnOrder,btnMore;
     private void initcontrol(){
@@ -29,7 +31,7 @@ public class SaleActivity extends AppCompatActivity {
         btnMenu=findViewById(R.id.btnMenu);
         btnOrder=findViewById(R.id.btnOrder);
         btnMore=findViewById(R.id.btnMore);
-
+        ln_cart=findViewById(R.id.ln_cart);
     }
 
     @Override
@@ -75,6 +77,14 @@ public class SaleActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Intent intent = new Intent(SaleActivity.this,MoreActivity.class);
                 intent.addFlags(Intent.FLAG_ACTIVITY_NO_ANIMATION);
+                startActivity(intent);
+            }
+        });
+        ln_cart.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(SaleActivity.this,PayActivity.class);
+                intent.putExtra("code_payment",3);
                 startActivity(intent);
             }
         });

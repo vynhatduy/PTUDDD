@@ -36,6 +36,7 @@
             android:layout_width="100dp"
             android:layout_height="60dp"
             android:orientation="horizontal"
+            android:id="@+id/ln_cart"
             android:background="@drawable/bg_btn_giohang">
             <ImageButton
                 android:id="@+id/btnStore"
@@ -62,6 +63,7 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="0dp"
+        android:layout_marginBottom="2.3dp"
         android:layout_weight="1"
         android:orientation="horizontal"
         android:layout_gravity="center"
@@ -99,8 +101,8 @@
 
             <ImageButton
                 android:id="@+id/btnMenu"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
                 android:background="@drawable/ic_menu"/>
             <TextView
                 android:id="@+id/lblMenu"

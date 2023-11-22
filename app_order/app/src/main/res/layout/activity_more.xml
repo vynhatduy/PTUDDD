@@ -108,6 +108,7 @@
             android:layout_width="100dp"
             android:layout_height="60dp"
             android:orientation="horizontal"
+            android:visibility="gone"
             android:background="@drawable/bg_btn_giohang">
             <ImageButton
                 android:id="@+id/btnStore"
@@ -137,6 +138,7 @@
         android:layout_weight="1"
         android:orientation="horizontal"
         android:layout_gravity="center"
+        android:layout_marginBottom="2.3dp"
         android:gravity="bottom"
         android:weightSum="5">
         <LinearLayout
