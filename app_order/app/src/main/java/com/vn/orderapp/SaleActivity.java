@@ -16,9 +16,9 @@ import java.util.ArrayList;
 
 public class SaleActivity extends AppCompatActivity {
     private int[] img_sale = new int[]{R.drawable.img_item_sale, R.drawable.img_item_sale, R.drawable.img_item_sale, R.drawable.img_item_sale, R.drawable.img_item_sale, R.drawable.img_item_sale, R.drawable.img_item_sale};
-    private String[] title_sale = new String[]{"Thứ 2 mua 1 tặng 1","Thứ 3 mua 1 tặng 2","Thứ 4 mua 2 tặng 3","Thứ 5 mua 3 tặng 4","Thứ 6 mua 1 tặng 1","Thứ 7 mua 2 tặng 1","Chủ nhật mua 1 tặng 2"};
+    private String[] title_sale = new String[]{"Khám phá ẩm thực với voucher giảm 20%","Voucher mừng ngày Phụ nữ Quốc tế","Voucher giảm giá mùa hè","Voucher giảm giá cuối tuần","Voucher giảm giá sinh nhật","Voucher giảm giá cho người mới"};
 
-    private String[] content_sale = new String[]{"Thứ 2 mua 1 tặng 1","Thứ 3 mua 1 tặng 2","Thứ 4 mua 2 tặng 3","Thứ 5 mua 3 tặng 4","Thứ 6 mua 1 tặng 1","Thứ 7 mua 2 tặng 1","Chủ nhật mua 1 tặng 2"};
+    private String[] content_sale = new String[]{"Sử dụng mã ‘FOODIE20’ để nhận ưu đãi giảm 20% cho đơn hàng đầu tiên của bạn","Chúc mừng ngày Phụ nữ Quốc tế! Nhập mã ‘WOMENSDAY’ để nhận ưu đãi giảm 30% cho tất cả các món ăn","Mùa hè đã đến! Nhập mã ‘SUMMERFUN’ để nhận ưu đãi giảm 15% cho tất cả các món ăn","Cuối tuần thật vui với ưu đãi giảm 10% cho tất cả các món ăn. Sử dụng mã 'WEEKEND10'","Chúc mừng sinh nhật! Nhập mã ‘BIRTHDAY’ để nhận ưu đãi giảm 25% cho đơn hàng của bạn","Chào mừng bạn đến với ứng dụng của chúng tôi! Nhập mã ‘NEWUSER’ để nhận ưu đãi giảm 20% cho đơn hàng đầu tiên"};
 
     private String[] txt_button = new String[] {"Đặt ngay"};
     private ListView lv_Sale;

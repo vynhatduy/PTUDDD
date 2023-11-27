@@ -26,9 +26,9 @@ public class MenuActivity extends AppCompatActivity {
     private int[] imgs_title_menu = new int[]{R.drawable.ic_all, R.drawable.ic_fire, R.drawable.ic_sale, R.drawable.ic_new};
     private String[] caps_title_menu=new String[]{"Tất cả","Món ngon phải thử","Khuyến mãi","Món mới"};
 
-    private int[] imgs = new int[]{R.drawable.item_1,R.drawable.item_1,R.drawable.item_1,R.drawable.item_1,R.drawable.item_1,R.drawable.item_1};
-    private String[] caps=new String[]{"Bánh canh cá lóc","Bánh canh thập cẩm","Bánh canh chả cá cá lóc","Bánh canh cá lóc","Bánh canh chả cá","Bánh canh cá lóc"};
-    private String[] gias= new String[]{"50000đ","50000đ","50000đ","50000đ","50000đ","50000đ"};
+    private int[] imgs = new int[]{R.drawable.com_chien_la_sen, R.drawable.goi_bon_bon_thit_tom, R.drawable.goi_cuon_thit_tom, R.drawable.ha_cao_xiu_mai, R.drawable.tom_coctail, R.drawable.ngheu_hap_thai, R.drawable.oc_dua_xao_bo, R.drawable.salad_pho_mai_xong_khoi, R.drawable.so_huyet_xao_me};
+    private String[] caps=new String[]{"Cơm chiên lá sen","Gỏi bồn bồn tôm thịt","Gỏi cuốn tôm thịt, bánh phồng","Há cảo, xíu mại","Tôm coctail","Nghêu hấp thái","Ốc dừa xào bơ","Salad phô mai thịt xông khói"};
+    private String[] gias= new String[]{"65000đ","120000đ","72000đ","45000đ","75000đ","40000đ","75000đ","99000đ"};
     RecyclerView rcv_Menu;
     private Item_Adapter_MonNgonPhaiThu item_AdapterMonNgonPhaiThu;
     private GridView gv_MonNgon;

@@ -40,9 +40,6 @@ import item_home.Item_home_Adapter;
 
 
 public class MainActivity extends AppCompatActivity {
-    private ImageView ivBanner;
-    private TableRow tr_change_pass;
-    private final int[] imgBanner = {drawable.img_banner1,drawable.img_banner2,drawable.img_banner3,drawable.img_banner4};
     private int currentIndex =0;
     private final Handler handler= new Handler();
     private LinearLayout lnTichDiem,ln_cart;
@@ -50,11 +47,11 @@ public class MainActivity extends AppCompatActivity {
     private ImageButton btnMenu,btnSale,btnOrder,btnMore,btnShowAll,btnUser,btn_back_info;
     private EditText txtLocation;
     private TableRow tr_location;
-    private int[] imgs = new int[]{R.drawable.item_1,R.drawable.item_1,R.drawable.item_1,R.drawable.item_1,R.drawable.item_1,R.drawable.item_1};
-    private String[] caps=new String[]{"Bánh canh cá lóc","Bánh canh thập cẩm","Bánh canh chả cá cá lóc","Bánh canh cá lóc","Bánh canh chả cá","Bánh canh cá lóc"};
-    private String[] gias= new String[]{"50000đ","50000đ","50000đ","50000đ","50000đ","50000đ"};
+    private int[] imgs = new int[]{drawable.com_chien_la_sen,drawable.goi_bon_bon_thit_tom,drawable.goi_cuon_thit_tom,drawable.ha_cao_xiu_mai,drawable.tom_coctail,drawable.ngheu_hap_thai,drawable.oc_dua_xao_bo,drawable.salad_pho_mai_xong_khoi,drawable.so_huyet_xao_me};
+    private String[] caps=new String[]{"Cơm chiên lá sen","Gỏi bồn bồn tôm thịt","Gỏi cuốn tôm thịt, bánh phồng","Há cảo, xíu mại","Tôm coctail","Nghêu hấp thái","Ốc dừa xào bơ","Salad phô mai thịt xông khói"};
+    private String[] gias= new String[]{"65000đ","120000đ","72000đ","45000đ","75000đ","40000đ","75000đ","99000đ"};
 
-    private int[] mImg_banner=new int[]{R.drawable.img_banner1,R.drawable.img_banner2,R.drawable.img_banner3,R.drawable.img_banner4};
+    private int[] mImg_banner=new int[]{drawable.com_chien_la_sen,drawable.goi_bon_bon_thit_tom,drawable.goi_cuon_thit_tom,drawable.ha_cao_xiu_mai,drawable.tom_coctail,drawable.ngheu_hap_thai,drawable.oc_dua_xao_bo,drawable.salad_pho_mai_xong_khoi,drawable.so_huyet_xao_me};
 
 
 
